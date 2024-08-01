@@ -58,7 +58,7 @@ logger = logging.getLogger(__name__)
 # # CONFIGURE OPENTELEMETRY
 
 resource = Resource.create({
-    "service.name": "easytravel-ai-rag",
+    "service.name": "jamie-easytravel-ai-rag",
     "service.version": "0.1.0"
 })
 
